@@ -30,3 +30,12 @@ Clone this repo: `git clone https://github.com/gaetanmaisse/prettier-maven-plugi
 ```bash
 [ERROR] Failed to execute goal com.hubspot.maven.plugins:prettier-maven-plugin:0.18:check (default-cli) on project version-0.18: Code formatting issues found, please run prettier-java -> [Help 1]
 ```
+
+### Check everything works as expected with version 0.19
+1. Go to the `version-0.17` folder: `cd version-0.19`
+2. Run prettier check: `mvn prettier:check`
+3. Observe the following error:
+
+```bash
+[ERROR] Failed to execute goal com.hubspot.maven.plugins:prettier-maven-plugin:0.19:check (default-cli) on project version-0.19: Code formatting issues found, please run prettier-java -> [Help 1]
+```
